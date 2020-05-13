@@ -1,0 +1,30 @@
+@import "layout";
+
+@import "sidebar/sidenav";
+@import "sidebar/sidebar";
+@import "sidebar/signin";
+@import "content";
+
+html {
+    font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+
+    font-family: "Open Sans";
+    color: #808080;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+
+}

@@ -1,0 +1,10 @@
+{
+    "jshint.exclude": {
+    
+    },
+    "jshint.options": {
+    
+    },
+    "eslint.enable": false,
+    "editor.tabCompletion": "on"
+}
